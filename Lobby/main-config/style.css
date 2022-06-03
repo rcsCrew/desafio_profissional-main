@@ -166,6 +166,7 @@ label span:nth-child(3) {
 	padding: 45vh 20vh 0;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 900;
+	
 }
 .text-b-p h1{
 	
@@ -207,6 +208,7 @@ label span:nth-child(3) {
 	margin-left: 10%;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 100;
+	
 }
 .text-b-s h1 {
 	font-size: 2rem;
@@ -238,7 +240,7 @@ span {
 	background: rgb(255, 255, 255);
 	color: #263238;
 	
-	padding-top: 100px;
+	padding-top: 20px;
 	padding-bottom: 30px;
 
 	margin-bottom: 20px;
@@ -247,6 +249,16 @@ span {
 	
 	border-radius: 10px;
 	box-shadow: 5px 5px 10px -3px #000000
+}
+.banner-tec{
+	height: 80px;
+	width: 80px;
+}
+.banner-tec:hover{
+	height: 85px;
+	width: 85px;
+	display: flex;
+	margin-left: 183px;
 }
 
 /*---------------------------*/
@@ -263,9 +275,21 @@ span {
 	padding: 10px 20px;
 	border-radius: 20px;
 }
+.text-c-t {
+	background: white;
+	
+	padding-top: 1%;
+
+}
+
 .text-c-t h1{
+	margin-top: 5%;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
+}
+.text-c-t img {
+	margin-left: 130px;
+	width: 1200px;
 }
 
 .text-a-s p {
@@ -280,9 +304,11 @@ span {
 	padding: 12px 22px;
 	font-size: 18px;
 
-	background: #ffffff;
+	display: flexbox;
+	background: #26A69A;
+	color: white;
 
-	transition: 0.5s;
+	transition: 0.3s;
 }
 
 
@@ -311,7 +337,7 @@ span {
 /* area 4 */
 
 .text-d-q {
-	background:  white;
+	background:  #f1f1f1;
 
 	margin-top: 5vh;
 	margin-right: 0%;
@@ -322,7 +348,7 @@ span {
 	padding-top: 5vh;
 }
 .text-d-q p {
-	background: white;
+	background: black;
 	margin-left: 45%;
 	margin-bottom: 5vh;
 	width: 150px;
@@ -377,15 +403,24 @@ span {
 
 .barra-2 {
 	padding-right: 50%;
-	background: #b6b6b6;
+	background: #ffffff;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	padding-top: 10px;
 }
 .barra-3 {
 	padding-right: 150%;
-	background: #b6b6b6;
+	background: #ffffff;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	padding-top: 10px;
 }
 .barra-4 {
 	padding-right: 150.3%;
-	background: #b6b6b6;
+	background: #ffffff;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	padding-top: 10px;
 }
 
 .subit input[type="submit"] {
@@ -396,6 +431,7 @@ span {
 	border-radius: 15px;
 	border: 3px solid #26A69A;
 	margin-left: 45%;
+	margin-top: -2550px;
 	margin-bottom: 35px;
 	padding: 10px 20px;
 	font-family: 'Open Sans', sans-serif;
@@ -414,6 +450,8 @@ span {
 	box-shadow: 5px 5px 10px -3px #000000;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
+
+	transition: 0.3s;
 }
 footer {
 	background: #1e272c;
@@ -422,6 +460,7 @@ footer {
 	margin-top: -15px;
 	text-align: center;
 }
+
 
 
 /* RESPONSIVE */
